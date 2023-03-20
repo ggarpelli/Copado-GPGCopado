@@ -154,13 +154,21 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
     <gender>Masculine</gender>
     <label>Copado Demo</label>
     <nameField>
         <label>Copado Demo Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Copado Demos</pluralLabel>
+    <pluralLabel>Copado Demo</pluralLabel>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

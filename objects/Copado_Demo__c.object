@@ -143,6 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Updating Description from Test Enviroment</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -169,6 +170,7 @@
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
+    <gender>Masculine</gender>
     <label>Copado Demo</label>
     <nameField>
         <label>Copado Demo Name</label>

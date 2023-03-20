@@ -162,6 +162,17 @@
         <type>TextArea</type>
     </fields>
     <fields>
+        <fullName>Notes__c</fullName>
+        <description>Introduce here your notes:</description>
+        <externalId>false</externalId>
+        <label>Notes</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Online__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>

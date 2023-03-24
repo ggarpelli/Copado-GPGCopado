@@ -17,18 +17,18 @@ private class AccountAutomationsTest {
         Account acc = new Account(Name = 'My Test Account');
         insert acc;
         acc = AccountAutomations.setDefaultBillingAddress(acc);
-        System.assertEquals('Basauri, 6', acc.BillingStreet, 'Default BillingStreet is Basauri, 6');
-        System.assertEquals('Madrid', acc.BillingState, 'Default BillingState is Madrid');
-        System.assertEquals('28023', acc.BillingPostalCode, 'Default BillingPostalCode is 28023');
+        System.assertEquals('Av Rio das Pedras, 2255', acc.BillingStreet, 'Default BillingStreet is Basauri, 6');
+        System.assertEquals('Brazil', acc.BillingState, 'Default BillingState is Madrid');
+        System.assertEquals('13425380', acc.BillingPostalCode, 'Default BillingPostalCode is 28023');
     }
 
     @isTest static void testDefaultShippingAddress(){
         Account acc = new Account(Name = 'My Test Account');
         insert acc;
         acc = AccountAutomations.setDefaultShippingAddress(acc);
-        System.assertEquals('Basauri, 6', acc.ShippingStreet, 'Default ShippingStreet is Basauri, 6');
-        System.assertEquals('Madrid', acc.ShippingState, 'Default Shippingtate is Madrid');
-        System.assertEquals('28023', acc.ShippingPostalCode, 'Default ShippingPostalCode is 28023');
+        System.assertEquals('Av Rio das Pedras, 2255', acc.ShippingStreet, 'Default ShippingStreet is Basauri, 6');
+        System.assertEquals('Brazil', acc.ShippingState, 'Default Shippingtate is Madrid');
+        System.assertEquals('13425380', acc.ShippingPostalCode, 'Default ShippingPostalCode is 28023');
     }
 
     @isTest static void testDefaultPhone(){

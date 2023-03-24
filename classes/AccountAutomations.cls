@@ -7,15 +7,15 @@ public class AccountAutomations {
         }
     }
     public static Account setDefaultBillingAddress(Account a){
-        a.billingstreet = 'Basauri, 6'; 
-        a.billingstate = 'Madrid'; 
-        a.billingpostalcode ='28023'; 
+        a.billingstreet = 'Av Rio das Pedras, 2255'; 
+        a.billingstate = 'Brazil'; 
+        a.billingpostalcode ='13425380'; 
         return a;
     }
     public static Account setDefaultShippingAddress(Account a){
-        a.shippingstreet = 'Basauri, 6'; 
-        a.shippingstate = 'Madrid';
-        a.shippingpostalcode ='28023';
+        a.shippingstreet = 'Av Rio das Pedras, 2255'; 
+        a.shippingstate = 'Brazil';
+        a.shippingpostalcode ='13425380';
         return a;
     }
     public static Account setDefaultPhone(Account a) {
